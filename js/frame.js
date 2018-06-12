@@ -1,0 +1,84 @@
+$(document).ready(function(){
+    $("#perple").mousemove(function(){
+        if($("#perple>div").is(":animated")){
+            return;
+        }
+        $("#perple>div").slideDown("1200");
+    });
+    $("#perple,#perple>div").mouseleave(function(){
+        $("#perple>div").css("display","none");
+    });
+});
+
+$(document).ready(function(){
+    $("#pub").mousemove(function(){
+        if($("#pub>div").is(":animated")){
+            return;
+        }
+        $("#pub>div").slideDown("1200");
+    });
+    $("#pub,#pub>div").mouseleave(function(){
+        $("#pub>div").css("display","none");
+    });
+});
+
+$(document).ready(function(){
+    $("#tss").mousemove(function(){
+        if($("#tss>div").is(":animated")){
+            return;
+        }
+        $("#tss>div").slideDown("1200");
+    });
+    $("#tss,#tss>div").mouseleave(function(){
+        $("#tss>div").css("display","none");
+    });
+});
+
+$(document).ready(function(){
+    $("#rouse").mousemove(function(){
+        if($("#rouse>div").is(":animated")){
+            return;
+        }
+        $("#rouse>div").slideDown("1200");
+    });
+    $("#rouse,#rouse>div").mouseleave(function(){
+        $("#rouse>div").css("display","none");
+    });
+});
+
+/*后台 */
+$(document).ready(function(){
+    $("#pop").mousemove(function(){
+        if($("#pop>div").is(":animated")){
+            return;
+        }
+        $("#pop>div").slideDown("1200");
+    });
+    $("#pop,#pop>div").mouseleave(function(){
+        $("#pop>div").css("display","none")
+    });
+});
+
+$(document).ready(function(){
+    $("#ser").mousemove(function(){
+        if($("#ser>div").is(":animated")){
+            return;
+        }
+        $("#ser>div").slideDown("1200");
+    });
+    $("#ser,#ser>div").mouseleave(function(){
+        $("#ser>div").css("display","none")
+    });
+});
+
+$(document).ready(function(){
+    $("#resource").mousemove(function(){
+        if($("#resource>div").is(":animated")){
+            return;
+        }
+        $("#resource>div").slideDown("1200");
+    });
+    $("#resource,#resource>div").mouseleave(function(){
+        $("#resource>div").css("display","none")
+    });
+});
