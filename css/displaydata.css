@@ -1,0 +1,183 @@
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input{
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.container-title{
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+    margin-top:6rem;
+}
+.container-title img{
+    width: 80%;
+}
+.container-intro{
+    width:80%;
+    height: 12rem;
+    margin:0 auto;
+    margin-top:2rem;
+    font-size: 1.6rem;
+}
+.container-intro p{
+    text-indent:4rem;
+    margin-top:2rem;
+}
+.container-info{
+    width: 80%;
+    height: 54rem;
+    margin:0 auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    border:1px solid black;
+}
+.conone{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    flex-flow: row;
+}
+.conone-top{
+    margin-top:6rem;
+}
+.cononetext{
+    width:33.3%;
+    margin-top:2rem;
+    text-align: center;
+    font-size:2rem;
+}
+.contwo{
+    width: 80%;
+    height: 4rem;
+    margin:0 auto;
+    padding-top:4rem;
+    text-align: center;
+    font-size: 2.4rem;
+    clear: both;
+}
+.con-img{
+    width:100%;
+    height: 22rem;
+    margin-top:5rem;
+    text-align: right;
+}
+.con-img img{
+    width:30%;
+    height: 22rem;
+}
+.cona{
+    width:100%;
+    text-align: center;
+}
+.appl{
+    width:6rem;
+    color:#000;
+    cursor: pointer;
+    font-size:2rem;
+}
+
+.resultdiv{
+    width:100%;
+    height:45rem;
+    display:flex;
+    flex-flow: row;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.resultdiv>div{
+    min-width:30%;
+}
+.result{
+    width:30%;
+    margin:2rem;
+    border:0.1rem solid black;
+}
+.re-name{
+    width:100%;
+    font-size:6rem;
+    text-align: center;
+    margin-bottom:4rem;
+    margin-top:2rem;
+}
+.stateleft{
+    width:30%;
+    height:6rem;
+    line-height: 6rem;
+    font-size: 2.2rem;
+    float: left;
+    text-align: center;
+    margin-left: 4rem;
+    border:0.1rem solid black;
+}
+.stateright{
+    width:30%;
+    height:6rem;
+    line-height: 6rem;
+    font-size: 2.2rem;
+    float:right;
+    text-align: center;
+    margin-right: 4rem;
+    margin-bottom:4rem;
+}
+.btn{
+    width:100%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    clear:both;
+    margin-bottom:2rem;
+}
+.btn input{
+    width:12rem;
+    height: 4rem;
+    background: none;
+    margin-left: 2rem;
+    margin-right:2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}

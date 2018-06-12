@@ -1,0 +1,72 @@
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input{
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+	background:url(../images/dodofes15.jpg);
+	background-size: cover;
+}
+body {
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.LgRg{
+	width:250px;
+	height:300px;
+	margin-top: 200px;
+	margin-left: 200px;
+	color: #e7f0f7;
+}
+.LgRg span{
+	width:15px;
+}
+.LgRg tr{
+	height: 3.5rem;
+}
+.LgRg input{
+	margin-bottom: 0.5rem;
+}
+.LgRg select{
+	width: 10rem;
+}
+.LgRg th{
+	font-size:2.5rem;
+	padding-bottom:3rem;
+}
+.lgrg-btn{
+	cursor: pointer;
+	text-align: center;
+}

@@ -1,0 +1,148 @@
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+}
+
+/*head*/
+.head{
+    width:100%;
+    height: 125px;
+    background: #4B4B4B;
+}
+.headL{
+    float: left;
+    margin-left: 155px;
+}
+.headImg{
+    float: left;
+}
+.HImg{
+    height: 75px;
+    width:75px;
+    margin-top:25px;
+    cursor: pointer;
+}
+.headtitle{
+    float: right;
+    height: 125px;
+    line-height: 125px;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.headR{
+    height: 125px;
+    float: right;
+    display: flex;
+    flex-flow: row;
+}
+.nav{
+    height: 28px;
+    line-height: 28px;
+    width: 100px;
+    text-align: center;
+    margin-top:48px;
+    margin-right:14px;
+    color:#FFF;
+    cursor: pointer;
+}
+.navlast{
+    margin-right: 40px;
+}
+.nav-per{
+    line-height: 20px;
+    width: 100px;
+    color: #FFF;
+    background: #333333;
+    display:none;
+}
+.nav-p{
+    height: 20px;
+}
+.head-LZ{
+    height: 125px;
+    line-height: 125px;
+    margin-right: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#FFF;
+}
+.head-login{
+    height: 125px;
+    line-height: 125px;
+    margin-right: 35px;
+    color:#FFF;
+    font-size:2rem;
+}
+
+/*bottom*/
+.bottom{
+    width: 100%;
+    height: 257px;
+    background: #4B4B4B;
+    font-weight: 600;
+    color:#FFF;
+}
+.bottom-text{
+    height: 257px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.bottom-left{
+    height: 227px;
+    width:45%;
+    padding-top:30px;
+    float: left;
+}
+.bottom-right{
+    height: 227px;
+    width:45%;
+    padding-top:30px;
+    float: right;
+}
+.bottom-tit{
+    font-size: 32px;
+}
+.bottom-con{
+    padding-top:15px;
+    font-size:15px;
+}

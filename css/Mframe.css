@@ -1,0 +1,181 @@
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: #444444;
+}
+.ulone{
+	width:100%;
+	margin-top:6rem;
+}
+.ulone li{
+	height: 6rem;
+	line-height: 3rem;
+	width:100%;
+	color:#FFF;
+	text-align: center;
+	font-size:2rem;
+	cursor: pointer;
+	display:inline-block;
+}
+.ulone a:link{
+	color:#FFF;
+}
+.ulone a:hover{
+	color:#ff6600;
+}
+.right-top{
+    width: 80%;
+	height: 6%;
+	line-height: 4rem;
+	float: right;
+	background: #3B5999;
+	color:#FFF;
+	font-size:2rem;
+}
+.top-left span{
+	margin-left: 4rem;
+}
+.container{
+	width:80%;
+	height: 94%;
+	float: right;
+}
+.top-left{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.top-right{
+	width:50%;
+	height: 100%;
+	line-height: 1rem;
+	float: right;
+}
+.top-right a{
+	height: 100%;
+	width:5rem;
+	float: right;
+	margin-right: 2rem;
+	cursor: pointer;
+}
+.top-right a:hover{
+	background: #202049;
+}
+.top-right a img{
+	height: 100%;
+	width:100%;
+}
+
+.user-block{
+	width:100%;
+	display: none;
+	color:#FFF;
+	text-align: center;
+}
+.user-block ul li{
+	width:100%;
+	height: 1rem;
+	font-size: 1.4rem;
+}
+
+table{
+	width:1100px;
+	margin:0 auto;
+	text-align: center;
+	margin-top:2.5rem;
+	font-weight: 600;
+	font-size: 1.4rem;
+}
+.sel{
+	width: 70rem;
+	position: relative;
+	left: 44%;
+}
+.bsel{
+	width: 4rem;
+	height: 2.5rem;
+	margin-top:2.5rem;
+	cursor: pointer;
+}
+.conright{
+	height: 60rem;
+	overflow: auto;
+	float: right;
+	margin-right: 5%;
+}
+.m-cap{
+	margin:3rem;
+	font-size: 3.8rem;
+}
+.btn{
+	height: 2.2rem;
+	width: 4rem;
+	cursor: pointer;
+	margin:20px;
+}
+.bq{
+	width: 4rem;
+	height: 2.2rem;
+	cursor: pointer;
+}
+.insert{
+	text-align: center;
+}
+#fpage{
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+#fpage a:link{
+	color:#000;
+}
+#fpage a:visited{
+	color:#000;
+}
+#fpage a:hover{
+	color:#ff6600;
+}

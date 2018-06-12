@@ -1,0 +1,124 @@
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+}
+
+.conpicture{
+	width: 80%;
+	height: 20rem;
+	margin:0 auto;
+	margin-top:5rem;
+}
+.pic-left{
+	width: 44%;
+	height: 20rem;
+	line-height: 20rem;
+	float: left;
+	font-size: 2.4rem;
+	font-weight: 600;
+	margin-left: 6%;
+}
+.pic-right{
+	width: 50%;
+	height: 20rem;
+	float: right;
+	display: flex;
+	flex-flow: row;
+}
+.pic-right img:nth-child(1){
+	height: 100%;
+	width: 55%;
+}
+.pic-right img:nth-child(2){
+	height: 100%;
+	width:35%;
+	margin-left:6rem;
+	margin-right: 10rem;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+	margin-bottom: 2rem;
+}
+.container-title{
+	width: 100%;
+	height: 10rem;
+	line-height: 10rem;
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+}
+.container-pictext{
+	width: 100%;
+	height: 50rem;
+}
+.pictextleft{
+	height: 32rem;
+	width: 20%;
+	float: left;
+	border:1px solid black;
+}
+.pictextright{
+	height: 32rem;
+	width: 76%;
+	float: right;
+	font-size: 14px;
+}
+.pictextbottom{
+	height: 16rem;
+	width: 100%;
+	clear:both;
+	font-size: 14px;
+	padding-top:2rem;
+}
+.container-bottom{
+	width: 100%;
+	height: 30rem;
+	padding-bottom:4rem;
+	border:1px solid black;
+}
+.container-bottom table{
+	width: 100%;
+}
+.container-bottom table tr td{
+	text-align: center;
+	width: 33.3%;
+}

@@ -1,0 +1,112 @@
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input{
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+/*计生*/
+.container-title{
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+    margin-top:6rem;
+}
+.container-title img{
+    width: 80%;
+}
+.container-intro{
+    width:80%;
+    height: 12rem;
+    margin:0 auto;
+    margin-top:2rem;
+    font-size: 1.6rem;
+}
+.container-intro p{
+    text-indent:4rem;
+    margin-top:2rem;
+}
+.container-info{
+    width: 80%;
+    height: 54rem;
+    margin:0 auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    border:1px solid black;
+}
+
+.contwo a:hover{
+    color:#FFF;
+    font-weight: 600;
+}
+.content{
+    display: flex;
+    flex-flow:row;
+    margin:5%;
+    text-align: left;
+}
+.con{
+    width:33.3%;
+}
+.planpic{
+    width:100%;
+    height:10rem;
+}
+.planpicleft{
+    width:40%;
+    height: 26rem;
+    float: left;
+    text-align: center;
+}
+.planpicleft input{
+    width:6rem;
+    height: 3rem;
+    font-size:1.4rem;
+    margin-left:2rem;
+    cursor: pointer;
+}
+.planpicright{
+    width:30%;
+    height:22rem;
+    float:right;
+}
+.planpicright img{
+    width:100%;
+    height: 100%;
+}

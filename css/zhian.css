@@ -1,0 +1,88 @@
+/*初始化*/
+body, div, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend,
+button, form, fieldset, textarea, p, blockquote, th, td {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ol, ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display: block;
+}
+html {
+	height: 100%;
+	font-size: 62.5% !important;
+	background-color: #fff; 
+	-webkit-text-size-adjust: none;
+}
+body {
+	height: 100%;
+	font-size: 1.2rem;
+}
+
+.intro{
+	width:80%;
+	height: 40rem;
+	margin:0 auto;
+	margin-top:2rem;
+	display:flex;
+	flex-flow:row;
+}
+.intro h1{
+	padding-bottom: 2rem;
+}
+.introleft{
+	width:48%;
+	height: 40rem;
+	font-size: 1.6rem;
+	line-height:3rem;
+}
+.introright{
+	width: 48%;
+	height: 40rem;
+	margin-left:4%;
+}
+.introright img{
+	width:100%;
+	height: 100%;
+}
+.text{
+	width: 80%;
+	margin:0 auto;
+	margin-top:6rem;
+	font-size:2rem;
+	font-weight: 600;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+}
+.phone{
+	width: 80%;
+	margin:0 auto;
+	margin-top:4rem;
+	margin-bottom: 4rem;
+	font-size:2rem;
+	font-weight: 600;
+}
